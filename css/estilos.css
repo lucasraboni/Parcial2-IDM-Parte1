@@ -10,7 +10,6 @@ h1,h2,h3,h4,h5,h6{
     font-weight: 100;
     font-style: normal;
     text-transform: uppercase;
-    
 }
 
 header {
@@ -26,6 +25,7 @@ header {
     width: 100%;
     transition: opacity 0.5s ease;
 }
+
 .image-container img.hover-image {
     position: absolute;
     top: 0;
@@ -45,3 +45,22 @@ header {
     color: #8342ea;
 }
 
+.links{
+    color: white;
+    text-decoration: none;
+    transition: transform 0.2s ease;
+}
+
+.links:hover{
+    color: #8342ea;
+}
+
+.agotado {
+    pointer-events: none;
+    cursor: default; 
+    opacity: 0.5;
+}
+
+.btn-agotado{
+    background-color:#8342ea;
+}
